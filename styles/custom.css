@@ -1,0 +1,38 @@
+hr {
+    border: 1px solid black;
+    margin: 3rem;
+    opacity: .25;
+  }
+  ::-webkit-scrollbar {
+      width: 10px;
+      color: #ffffff;
+  }
+  
+  ::-webkit-scrollbar-track {
+      background: #00308F;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+      background: #0437F2;
+      border-radius: 30px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+      background: #1C05B3;
+  }
+  
+  ::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: rgb(219, 219, 219);
+      opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: rgb(219, 219, 219);
+  }
+  
+  ::-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: rgb(219, 219, 219);
+  }
